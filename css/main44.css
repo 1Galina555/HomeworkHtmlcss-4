@@ -1,0 +1,288 @@
+.background{
+    background-color:  #FFFFFF;
+    padding-right:370px;
+    padding-left: 370px;
+}
+.blok-top
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.line-1{
+width: 480.5px;
+height: 2px;
+background: #F4F5F4;
+flex: none;
+order: 0;
+margin-top: 79px;
+}
+.text-top{
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 59px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 40px;
+color: #23155B;
+flex: none;
+order: 1;
+}
+.line-2{
+    width: 480.5px;
+    height: 2px;
+    background: #F4F5F4;
+    flex: none;
+    margin-top: 79px;
+    flex: none;
+order: 2;
+    }
+    .blok2p{
+        padding-left: 170px;
+        padding-right: 170px;
+        background-color: #FFFFFF ;
+    }
+.blok-2>img{
+    margin-top:42px;
+    display:inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  border-radius: 8px;
+  
+}
+.blok-3{
+display: flex;
+flex-wrap: wrap;
+background-color:  #FFFFFF;
+justify-content: flex-start;
+padding-top: 187px;
+padding-left: 170px;
+padding-right: 218px;
+padding-bottom: 337px;
+position: absolute;
+width: 382px;
+height: 256px;
+
+}
+.blok-3color{
+    font-family: 'Poppins';
+font-weight: 700;
+font-size: 52px;
+line-height: 64px;
+letter-spacing: 0.02em;
+    color:rgba(128, 83, 255, 1);
+}
+.blok-3color2{
+font-family: 'Poppins';
+font-weight: 700;
+font-size: 52px;
+line-height: 64px;
+letter-spacing: 0.02em;
+color: #23155B;}
+.blok-41{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 12px;
+    width: 580px;
+height: 120px;
+background: #FFFFFF;
+border-radius: 8px;
+}
+.blok4-text2{
+ width: 25px;
+height: 28px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color:#8053FF;
+margin-left:-37px;
+margin-right:12px;
+margin-bottom: 28px;
+
+}
+.blok4-text22{
+    width: 25px;
+   height: 28px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   color:#8053FF;
+   margin-left:-137px;
+   margin-right:12px;
+   margin-bottom: 28px;
+   
+   }
+.blok4-text{
+  padding-top: 32px;
+   padding-left: 61px;
+   padding-right: 24px;
+   padding-bottom: 32px;
+   font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+color: #23155B;
+}
+.blok4-background{
+    margin-top: 187px;
+    margin-left:770px ;
+    margin-right:170px;
+    background:#EDEDF2;
+    height: 648px;
+    margin-bottom: 62px;
+}
+@media screen and (max-width:428px){
+    .background{
+        padding-left:5vw;
+        padding-right:5vw;
+    }
+    .line-1{
+        width: 480.5px;
+        height: 2px;
+        background: #F4F5F4;
+        flex: none;
+        margin-top: 6px;
+        flex: none;
+        order: 0;
+        }
+        .blok-top
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+        .text-top{
+            padding-left: 10px;
+            padding-right: 4px;
+            margin-top: 20px;
+            font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 15px;
+        font-size: 15px;
+        line-height: 20px;
+        color: #23155B;
+        flex: none;
+        order: 1;
+        }
+        .line-2{
+            width: 480.5px;
+            height: 2px;
+            background: #F4F5F4;
+            flex: none;
+            margin-top: 5px;
+            flex: none;
+        order: 2;
+            }
+            .blok2p{
+                padding-left: 17vw;
+                padding-right: 17vw;
+                background-color: #FFFFFF ;
+            }
+        .blok-2>img{
+            margin-top:12px;
+            display:grid;
+            grid-template-columns: 10px 20px 20px 20px 20px;
+          gap: 3px;
+          border-radius: 4px;
+          
+          
+        }
+        .blok-3{
+        display: flex;
+        flex-wrap: wrap;
+        background-color:  #FFFFFF;
+        justify-content: flex-start;
+        padding-top: 27px;
+        padding-left: 50px;
+        padding-right: 28px;
+        padding-bottom: 17px;
+        position: absolute;
+        width: 82px;
+        height: 56px;
+        
+        }
+        .blok-3color{
+            font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+            color:rgba(128, 83, 255, 1);
+        }
+        .blok-3color2{
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #23155B;}
+        .blok-41{
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            justify-content: start;
+            gap: 3px;
+            width: 580px;
+        height: 120px;
+        background: #FFFFFF;
+        border-radius: 8px;
+        }
+        .blok4-text2{
+         width: 25px;
+        height: 28px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color:#8053FF;
+        margin-left:-37px;
+        margin-right:12px;
+        margin-bottom: 28px;
+        
+        }
+        .blok4-text22{
+            width: 25px;
+           height: 28px;
+           font-family: 'Poppins';
+           font-style: normal;
+           font-weight: 700;
+           font-size: 24px;
+           line-height: 28px;
+           color:#8053FF;
+           margin-left:-37px;
+           margin-right:12px;
+           margin-bottom: 6px;
+           padding-top: 15px;
+           }
+        .blok4-text{
+          padding-top: 9px;
+           padding-left: 41px;
+           padding-right: 22px;
+           padding-bottom: 6px;
+           font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 14px;
+        color: #23155B;
+        }
+        .blok4-background{
+            margin-top:145px;
+            margin-left:7px ;
+            margin-right:7px;
+            background:#EDEDF2;
+            height: 300px;
+            margin-bottom: 5px;
+        }
+
+}
+
+
